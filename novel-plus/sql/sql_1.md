@@ -20,12 +20,12 @@ In the novel-plus system, there exists an SQL injection vulnerability in the /no
 
 ```
 GET /novel/bookSetting/list?type=3&limit=10&offset=0&sort=book_id&order=desc HTTP/1.1
-Host: 164.155.196.137:8088
+Host: 127.0.0.1:8088
 Accept: application/json, text/javascript, */*; q=0.01
 X-Requested-With: XMLHttpRequest
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.71 Safari/537.36
 Content-Type: application/json
-Referer: http://164.155.196.137:8088/novel/bookSetting
+Referer: http://127.0.0.1:8088/novel/bookSetting
 Accept-Encoding: gzip, deflate, br
 Accept-Language: zh-CN,zh;q=0.9
 Cookie: JSESSIONID=3284050d-006d-47f0-83ff-82501693fe3e
